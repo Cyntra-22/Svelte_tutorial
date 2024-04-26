@@ -1336,6 +1336,7 @@ Tweening is good for gentle transitions, while springs are great for adding a bi
 
 	.image_background {
     	width: 100%;
+		
     
 }
 
@@ -1385,6 +1386,12 @@ Tweening is good for gentle transitions, while springs are great for adding a bi
 		padding-right: 10px;
 	}
 
+	.question-style{
+		font-weight: bold;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		font-size: 15px;
+	}
+
 	@media (min-width: 1080px){
 		.main-container{
 			width: 30%;
@@ -1409,7 +1416,7 @@ Tweening is good for gentle transitions, while springs are great for adding a bi
 				<div class="faq-container" style="{index === faqItems.length - 1 ? 'border-bottom: none;' : ''}">
 					<div>
 						<div class="alignment">
-							<div>
+							<div class="question-style">
 								<span>{faqItem.question}</span>
 							</div>
 							<div>
